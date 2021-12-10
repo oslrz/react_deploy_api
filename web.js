@@ -8,4 +8,5 @@ app.get("/",(request, response)=>{
         response.send(data)
     })
 });
+console.log('app is working properly')
 app.listen(3000);
