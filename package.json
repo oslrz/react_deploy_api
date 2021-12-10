@@ -5,13 +5,15 @@
   "main": "web.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node web.js"
+    "start": "nodemon web.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
-    "heroku": "^7.59.2"
+    "heroku": "^7.59.2",
+    "nodemon": "^2.0.15"
   }
 }
